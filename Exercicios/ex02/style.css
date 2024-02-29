@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa{
+    background-color: hsl(0, 90%, 26%, 0.718);
+    padding: 15px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 0 1rem ;
+}
+
+.resultados{
+    background-color: hsla(0, 90%, 26%, 0.718);
+    padding: 15px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 0 1rem ;
+}
