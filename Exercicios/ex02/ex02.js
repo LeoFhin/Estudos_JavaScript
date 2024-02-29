@@ -12,15 +12,12 @@ var quantidade_pessoas = 0;
 let quantidade_homens = 0;
 let quantidade_mulheres = 0;
 
-// ___________________________________________________________________ //
-
-
 // Criação de função "adicionar_pessoa" contendo armazenamento de dados vindos do FORM no HTML //
 
 function adicionar_pessoa(event) {
     event.preventDefault();
 
-    // LINHA 36 A 41 = Variaveis guardando dados Obtidos no HTML pela identificação do ID
+    //Variaveis guardando dados Obtidos no HTML pela identificação do ID
     const input_altura = document.getElementById('pergunta_altura');
     const input_sexo = document.getElementById('pergunta_sexo');
 
@@ -30,7 +27,7 @@ function adicionar_pessoa(event) {
     pergunta_sexo.push(sexo);
     pergunta_altura.push(altura);
 
-    /* LINHA 50 A 56 Estrutura Condicional para se resposta da Pergunta de sexo for M adicionar uma pessoa em
+    /* Estrutura Condicional para se resposta da Pergunta de sexo for M adicionar uma pessoa em
      na variavel: quantidade_homens e guarda uma a altura em altura_homens | A mesma coisa para quantidade_mulheres e altura_mulheres.
     */
 
